@@ -1,0 +1,3 @@
+#!/bin/bash
+curl -s httpbin.org/ip | jq -r .origin
+
