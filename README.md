@@ -2,7 +2,7 @@
 Linux server-side scripts i use everyday
 
 #Install/Deinstall
-To install simply execute ./licru.sh install
+To install simply execute ./licru.sh install\n
 To deinstall execute ./licru.sh deinstall 
 And reinstall ./licru reinstall - Usefull to update all scripts after git pull.
 
