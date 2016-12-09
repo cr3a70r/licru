@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/sh
 ps -eo pmem,comm | grep $1 | awk '{sum+=$1} END {print sum " % of RAM"}'
