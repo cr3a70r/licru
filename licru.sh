@@ -27,7 +27,7 @@ install_tools()
 	for tool in "${tools[@]}"
 	do
 		echo -en "\033[32m Installing \033[0m ... " "\033[42m $tool \033[m\n"
-		cp "$tool" /usr/bin/textfind
+		cp "$tool" /usr/bin/"$tool"
 	done
 	
 	return $RET_SUCCESS
