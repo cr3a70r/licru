@@ -1,3 +1,2 @@
-#!/bin/bash
-id $1 | sed s/' '/'\n'/g | sed s/,/',\n '/g | sed s/'('/' ('/g | sed s/uid/' uid'/g | sed s/gid/' gid'/g | sed s/=/' = '/g
-
+#!/bin/sh
+id $1 | sed 's/ /\n/g; s/,/,\n /g; s/(/ (/g; s/uid/ uid/g; s/gid/ gid/g; s/=/ = /g;'
