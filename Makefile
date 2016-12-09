@@ -1,6 +1,11 @@
 PREFIX   ?= /usr
 BINPREFIX = $(PREFIX)/bin
 
+.PHONY: all install uninstall reinstall
+
+all:
+	@true
+
 install:
 	@install -D -m 755 -t $(DESTDIR)/$(BINPREFIX) a2strace
 	@install -D -m 755 -t $(DESTDIR)/$(BINPREFIX) ipinfo
