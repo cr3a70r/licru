@@ -1,2 +1,2 @@
-#!/bin/bash
-ps auxw | grep -E 'sbin/(apache|httpd)' | awk '{print"-p " $2}' | xargs strace -F
+#!/bin/sh
+pgrep -lx '(apache|httpd)' | xargs strace -f -p
