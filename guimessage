@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Send GUI notification using 
+# https://wiki.archlinux.org/index.php/Desktop_notifications
+
+# Use case - you have SSH'd to server as somebody, 
+# and want to sent message to this somebody, while he/she is using X
+
+
+# Отправить графическое оповещение текущему пользователю
+# Работает из SSH
+
+# origin https://gist.github.com/vodolaz095/db14f53df00f77abc5a6c13b4d3aae6c
+
+DISPLAY=:0.0 /bin/notify-send "$1"

@@ -12,6 +12,12 @@ tools[5]="a2strace"
 tools[6]="showservice"
 tools[7]="lschanged"
 tools[8]="memhungry"
+tools[9]="screencast.sh"
+tools[10]="clear-docker-cache"
+tools[11]="guimessage"
+tools[12]="topten.sh"
+tools[13]="vdunpak"
+
 
 if [ -z "$1" ]
 then 

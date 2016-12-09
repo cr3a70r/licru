@@ -19,6 +19,13 @@ nakedip     - Only prints your external IP address
 prettyuser  - Pretty print given users info of ID and groups  
 showservice - Print all running services using systemctl in service style with description  
 textfind    - Finds given text in current folder with file names  
+tea.sh      - timer for making tea
+
+screencast.sh      - make ffmpeg video screencast
+clear-docker-cache - clear docker cache
+guimessage         - send message to X server - works even from SSH console, when the same user is using X server
+topten.sh          - show top 10 most popular shell commands for this user
+vdunpak	           - shell command to open any archive
   
 Coming soon my other tools.  
 

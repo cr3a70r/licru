@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Clear all docker containers and cache - sometimes it is important to save place on HDD
+# Attention - it works!
+# Очистить все докер контейнеры и кэш - иногда помогает сохранить место на диске
+# Осторожно! Реально чистит!
+
+
+# origin - https://gist.github.com/vodolaz095/c1c339258efaad2cd6ac
+
+# Delete all containers
+sudo docker rm $(docker ps -a -q)
+# Delete all images
+sudo docker rmi $(docker images -q)
